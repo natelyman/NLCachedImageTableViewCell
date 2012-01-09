@@ -1,6 +1,6 @@
 //
 //  NLCachedImageTableViewCell.m
-//  niners
+//  Nate Lyman
 //
 //  Created by Lyman, Nathan(nlyman) on 1/9/12.
 //  Copyright (c) 2012 NateLyman.com. All rights reserved.
