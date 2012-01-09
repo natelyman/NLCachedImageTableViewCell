@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1075EEEC14BAEDAE0081ABB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1075EEEB14BAEDAE0081ABB3 /* UIKit.framework */; };
+		1075EEEE14BAEDAE0081ABB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1075EEED14BAEDAE0081ABB3 /* Foundation.framework */; };
+		1075EEF014BAEDAE0081ABB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1075EEEF14BAEDAE0081ABB3 /* CoreGraphics.framework */; };
+		1075EEF614BAEDAE0081ABB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1075EEF414BAEDAE0081ABB3 /* InfoPlist.strings */; };
+		1075EEF814BAEDAE0081ABB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1075EEF714BAEDAE0081ABB3 /* main.m */; };
+		1075EEFC14BAEDAE0081ABB3 /* NLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1075EEFB14BAEDAE0081ABB3 /* NLAppDelegate.m */; };
+		1075EEFF14BAEDAE0081ABB3 /* NLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1075EEFE14BAEDAE0081ABB3 /* NLViewController.m */; };
+		1075EF0214BAEDAE0081ABB3 /* NLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1075EF0014BAEDAE0081ABB3 /* NLViewController.xib */; };
+		1075EF1014BAEDE80081ABB3 /* NLCachedImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1075EF0F14BAEDE80081ABB3 /* NLCachedImageTableViewCell.m */; };
+		1075EF1214BAEF030081ABB3 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1075EF1114BAEF030081ABB3 /* Twitter.framework */; };
+		1075EF1814BAF1000081ABB3 /* User.png in Resources */ = {isa = PBXBuildFile; fileRef = 1075EF1714BAF1000081ABB3 /* User.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1075EEE714BAEDAE0081ABB3 /* cachedtableviewcell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cachedtableviewcell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1075EEEB14BAEDAE0081ABB3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1075EEED14BAEDAE0081ABB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1075EEEF14BAEDAE0081ABB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1075EEF314BAEDAE0081ABB3 /* cachedtableviewcell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cachedtableviewcell-Info.plist"; sourceTree = "<group>"; };
+		1075EEF514BAEDAE0081ABB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1075EEF714BAEDAE0081ABB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1075EEF914BAEDAE0081ABB3 /* cachedtableviewcell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cachedtableviewcell-Prefix.pch"; sourceTree = "<group>"; };
+		1075EEFA14BAEDAE0081ABB3 /* NLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLAppDelegate.h; sourceTree = "<group>"; };
+		1075EEFB14BAEDAE0081ABB3 /* NLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLAppDelegate.m; sourceTree = "<group>"; };
+		1075EEFD14BAEDAE0081ABB3 /* NLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLViewController.h; sourceTree = "<group>"; };
+		1075EEFE14BAEDAE0081ABB3 /* NLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLViewController.m; sourceTree = "<group>"; };
+		1075EF0114BAEDAE0081ABB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NLViewController.xib; sourceTree = "<group>"; };
+		1075EF0E14BAEDE80081ABB3 /* NLCachedImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLCachedImageTableViewCell.h; path = ../../src/NLCachedImageTableViewCell.h; sourceTree = "<group>"; };
+		1075EF0F14BAEDE80081ABB3 /* NLCachedImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLCachedImageTableViewCell.m; path = ../../src/NLCachedImageTableViewCell.m; sourceTree = "<group>"; };
+		1075EF1114BAEF030081ABB3 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		1075EF1714BAF1000081ABB3 /* User.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = User.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1075EEE414BAEDAE0081ABB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1075EF1214BAEF030081ABB3 /* Twitter.framework in Frameworks */,
+				1075EEEC14BAEDAE0081ABB3 /* UIKit.framework in Frameworks */,
+				1075EEEE14BAEDAE0081ABB3 /* Foundation.framework in Frameworks */,
+				1075EEF014BAEDAE0081ABB3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1075EEDC14BAEDAE0081ABB3 = {
+			isa = PBXGroup;
+			children = (
+				1075EEF114BAEDAE0081ABB3 /* cachedtableviewcell */,
+				1075EEEA14BAEDAE0081ABB3 /* Frameworks */,
+				1075EEE814BAEDAE0081ABB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1075EEE814BAEDAE0081ABB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1075EEE714BAEDAE0081ABB3 /* cachedtableviewcell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1075EEEA14BAEDAE0081ABB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1075EF1114BAEF030081ABB3 /* Twitter.framework */,
+				1075EEEB14BAEDAE0081ABB3 /* UIKit.framework */,
+				1075EEED14BAEDAE0081ABB3 /* Foundation.framework */,
+				1075EEEF14BAEDAE0081ABB3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1075EEF114BAEDAE0081ABB3 /* cachedtableviewcell */ = {
+			isa = PBXGroup;
+			children = (
+				1075EF0C14BAEDD30081ABB3 /* NLCachedImageTableViewCell */,
+				1075EEFA14BAEDAE0081ABB3 /* NLAppDelegate.h */,
+				1075EEFB14BAEDAE0081ABB3 /* NLAppDelegate.m */,
+				1075EEFD14BAEDAE0081ABB3 /* NLViewController.h */,
+				1075EEFE14BAEDAE0081ABB3 /* NLViewController.m */,
+				1075EF0014BAEDAE0081ABB3 /* NLViewController.xib */,
+				1075EF1714BAF1000081ABB3 /* User.png */,
+				1075EEF214BAEDAE0081ABB3 /* Supporting Files */,
+			);
+			path = cachedtableviewcell;
+			sourceTree = "<group>";
+		};
+		1075EEF214BAEDAE0081ABB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1075EEF314BAEDAE0081ABB3 /* cachedtableviewcell-Info.plist */,
+				1075EEF414BAEDAE0081ABB3 /* InfoPlist.strings */,
+				1075EEF714BAEDAE0081ABB3 /* main.m */,
+				1075EEF914BAEDAE0081ABB3 /* cachedtableviewcell-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1075EF0C14BAEDD30081ABB3 /* NLCachedImageTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1075EF0E14BAEDE80081ABB3 /* NLCachedImageTableViewCell.h */,
+				1075EF0F14BAEDE80081ABB3 /* NLCachedImageTableViewCell.m */,
+			);
+			name = NLCachedImageTableViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1075EEE614BAEDAE0081ABB3 /* cachedtableviewcell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1075EF0514BAEDAE0081ABB3 /* Build configuration list for PBXNativeTarget "cachedtableviewcell" */;
+			buildPhases = (
+				1075EEE314BAEDAE0081ABB3 /* Sources */,
+				1075EEE414BAEDAE0081ABB3 /* Frameworks */,
+				1075EEE514BAEDAE0081ABB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cachedtableviewcell;
+			productName = cachedtableviewcell;
+			productReference = 1075EEE714BAEDAE0081ABB3 /* cachedtableviewcell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1075EEDE14BAEDAE0081ABB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1075EEE114BAEDAE0081ABB3 /* Build configuration list for PBXProject "cachedtableviewcell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1075EEDC14BAEDAE0081ABB3;
+			productRefGroup = 1075EEE814BAEDAE0081ABB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1075EEE614BAEDAE0081ABB3 /* cachedtableviewcell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1075EEE514BAEDAE0081ABB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1075EEF614BAEDAE0081ABB3 /* InfoPlist.strings in Resources */,
+				1075EF0214BAEDAE0081ABB3 /* NLViewController.xib in Resources */,
+				1075EF1814BAF1000081ABB3 /* User.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1075EEE314BAEDAE0081ABB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1075EEF814BAEDAE0081ABB3 /* main.m in Sources */,
+				1075EEFC14BAEDAE0081ABB3 /* NLAppDelegate.m in Sources */,
+				1075EEFF14BAEDAE0081ABB3 /* NLViewController.m in Sources */,
+				1075EF1014BAEDE80081ABB3 /* NLCachedImageTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1075EEF414BAEDAE0081ABB3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1075EEF514BAEDAE0081ABB3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1075EF0014BAEDAE0081ABB3 /* NLViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1075EF0114BAEDAE0081ABB3 /* en */,
+			);
+			name = NLViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1075EF0314BAEDAE0081ABB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1075EF0414BAEDAE0081ABB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1075EF0614BAEDAE0081ABB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cachedtableviewcell/cachedtableviewcell-Prefix.pch";
+				INFOPLIST_FILE = "cachedtableviewcell/cachedtableviewcell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1075EF0714BAEDAE0081ABB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cachedtableviewcell/cachedtableviewcell-Prefix.pch";
+				INFOPLIST_FILE = "cachedtableviewcell/cachedtableviewcell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1075EEE114BAEDAE0081ABB3 /* Build configuration list for PBXProject "cachedtableviewcell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1075EF0314BAEDAE0081ABB3 /* Debug */,
+				1075EF0414BAEDAE0081ABB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1075EF0514BAEDAE0081ABB3 /* Build configuration list for PBXNativeTarget "cachedtableviewcell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1075EF0614BAEDAE0081ABB3 /* Debug */,
+				1075EF0714BAEDAE0081ABB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1075EEDE14BAEDAE0081ABB3 /* Project object */;
+}
